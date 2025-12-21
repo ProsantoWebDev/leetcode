@@ -17,10 +17,3 @@ var findMedianSortedArrays = function (nums1, nums2) {
   }
   return median;
 };
-
-nums1 = [1, 3];
-nums2 = [2];
-num1 = [1, 2];
-num2 = [3, 4];
-console.log(findMedianSortedArrays(nums1, nums2));
-console.log(findMedianSortedArrays(num1, num2));
