@@ -1,7 +1,3 @@
-/**
- * @param {number[][]} grid
- * @return {number}
- */
 var countNegatives = function (grid) {
   result = [];
   arr = [].concat(...grid).sort();
@@ -16,7 +12,6 @@ var countNegatives = function (grid) {
     return result.length;
   }
 };
-
 grid = [
   [4, 3, 2, -1],
   [3, 2, 1, -1],
@@ -27,4 +22,3 @@ grid2 = [
   [3, 2],
   [1, 0],
 ];
-console.log(countNegatives(grid2));
