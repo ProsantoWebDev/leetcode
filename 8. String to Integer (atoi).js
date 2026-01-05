@@ -1,10 +1,8 @@
 var myAtoi = function (s) {
   // STEP 1: Remove leading whitespace
-  s = s.trim(); // "   42" becomes "42", "   -42" becomes "-42"
-
+  s = s.trim();
   // If string is empty after trimming, return 0
   if (s.length === 0) return 0;
-
   // STEP 2: Determine sign
   let sign = 1; // Default to positive
   let i = 0; // Index pointer
