@@ -6,7 +6,6 @@ var myAtoi = function (s) {
   // STEP 2: Determine sign
   let sign = 1; // Default to positive
   let i = 0; // Index pointer
-
   if (s[0] === "-") {
     sign = -1; // Negative number
     i++; // Move past the sign character
