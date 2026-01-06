@@ -18,4 +18,5 @@ class Solution(object):
             current = current.next
             carry //= 10
         return dummy.next
+l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
 
