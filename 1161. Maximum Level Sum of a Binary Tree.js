@@ -6,7 +6,6 @@ function TreeNode(val, left, right) {
 
 var maxLevelSum = function (root) {
   if (!root) return 0;
-
   const queue = [root];
   let maxSum = -Infinity;
   let maxLevel = 1;
