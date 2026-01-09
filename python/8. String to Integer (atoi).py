@@ -4,7 +4,7 @@ def myAtoi(s: str) -> int:
         INT_MIN = -2**31
 
         # Step 1: Skip leading whitespace
-        i = 0
+        i = 0   
         n = len(s)
         while i < n and s[i] == ' ':
             i += 1
